@@ -289,7 +289,9 @@ dtb-$(CONFIG_ARCH_MXC) += imx8mp-evk.dtb imx8mp-evk-rm67191.dtb imx8mp-evk-it626
 			  imx8mp-evk-hifiberry-dac2.dtb imx8mp-evk-hifiberry-dacplusadc.dtb \
 			  imx8mp-evk-rm67199.dtb  imx8mp-evk-rm692c9.dtb \
 			  imx8mp-evk-dpdk.dtb imx8mp-evk-8mic-swpdm.dtb imx8mp-evk-revA3-8mic-revE.dtb
-dtb-$(CONFIG_ARCH_MXC) += imx8mp-calixto-optima_2GB.dtb imx8mp-calixto-optima_2GB-waveshare-4inch-dsi.dtb imx8mp-calixto-optima_2GB-mipi-csi1.dtb 
+dtb-$(CONFIG_ARCH_MXC) += imx8mp-calixto-optima_2GB.dtb \
+			  imx8mp-calixto-optima_2GB-waveshare-4inch-dsi.dtb \
+			  imx8mp-calixto-optima_2GB-mipi-csi1.dtb 
 dtb-$(CONFIG_ARCH_MXC) += imx8mp-hummingboard-mate.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mp-hummingboard-pro.dtb
 dtb-$(CONFIG_ARCH_MXC) += imx8mp-hummingboard-pulse.dtb
